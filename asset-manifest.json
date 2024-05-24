@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/travel/static/css/main.6a3e6f20.css",
-    "main.js": "/travel/static/js/main.c6ce6254.js",
-    "static/media/Angkor Wat.jpg": "/travel/static/media/Angkor Wat.52aabc402cdf0ba3bb93.jpg",
-    "static/media/borabora.jpg": "/travel/static/media/borabora.ad1b20f396db6b3a33ed.jpg",
-    "static/media/Cinque Terre.jpg": "/travel/static/media/Cinque Terre.ee13099290477e721727.jpg",
-    "static/media/Guanajuato.jpg": "/travel/static/media/Guanajuato.dfbb85396116802b00c2.jpg",
-    "static/media/Taj mahal.jpg": "/travel/static/media/Taj mahal.6c26a83c39fdc749324e.jpg",
-    "static/media/Bali Island.jpg": "/travel/static/media/Bali Island.a4e1a23a5daf65f77c3f.jpg",
-    "static/media/Great Barrier Reef.jpg": "/travel/static/media/Great Barrier Reef.e05f78556d670c53b7f1.jpg",
-    "static/media/cappadocia.jpg": "/travel/static/media/cappadocia.22a7f661632cec60a44d.jpg",
-    "static/media/banner.jpg": "/travel/static/media/banner.c526ae6c3466e7f11a6c.jpg",
-    "static/media/Machu Piccu.jpg": "/travel/static/media/Machu Piccu.a680c3ca727034fd9074.jpg",
-    "index.html": "/travel/index.html",
-    "main.6a3e6f20.css.map": "/travel/static/css/main.6a3e6f20.css.map",
-    "main.c6ce6254.js.map": "/travel/static/js/main.c6ce6254.js.map"
+    "main.css": "/travel-ui/static/css/main.6a3e6f20.css",
+    "main.js": "/travel-ui/static/js/main.ae15c4bf.js",
+    "static/media/Angkor Wat.jpg": "/travel-ui/static/media/Angkor Wat.52aabc402cdf0ba3bb93.jpg",
+    "static/media/borabora.jpg": "/travel-ui/static/media/borabora.ad1b20f396db6b3a33ed.jpg",
+    "static/media/Cinque Terre.jpg": "/travel-ui/static/media/Cinque Terre.ee13099290477e721727.jpg",
+    "static/media/Guanajuato.jpg": "/travel-ui/static/media/Guanajuato.dfbb85396116802b00c2.jpg",
+    "static/media/Taj mahal.jpg": "/travel-ui/static/media/Taj mahal.6c26a83c39fdc749324e.jpg",
+    "static/media/Bali Island.jpg": "/travel-ui/static/media/Bali Island.a4e1a23a5daf65f77c3f.jpg",
+    "static/media/Great Barrier Reef.jpg": "/travel-ui/static/media/Great Barrier Reef.e05f78556d670c53b7f1.jpg",
+    "static/media/cappadocia.jpg": "/travel-ui/static/media/cappadocia.22a7f661632cec60a44d.jpg",
+    "static/media/banner.jpg": "/travel-ui/static/media/banner.c526ae6c3466e7f11a6c.jpg",
+    "static/media/Machu Piccu.jpg": "/travel-ui/static/media/Machu Piccu.a680c3ca727034fd9074.jpg",
+    "index.html": "/travel-ui/index.html",
+    "main.6a3e6f20.css.map": "/travel-ui/static/css/main.6a3e6f20.css.map",
+    "main.ae15c4bf.js.map": "/travel-ui/static/js/main.ae15c4bf.js.map"
   },
   "entrypoints": [
     "static/css/main.6a3e6f20.css",
-    "static/js/main.c6ce6254.js"
+    "static/js/main.ae15c4bf.js"
   ]
 }
