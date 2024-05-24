@@ -1,0 +1,238 @@
+:root {
+    --primaryColor: hsl(199, 100%, 33%);
+    --secondaryColor: hsl(187, 85%, 43%);
+    --gradientColor: linear-gradient(to right, hsl(187, 85%, 43%), hsl(199, 100%, 33%));
+    --whiteColor: hsl(0, 05, 100%);
+    --blackColor: hsl(201, 33%, 16%);
+    --textColor: hsl(240, 4%, 36%);
+    --whiteColorDeam: hsl(0, 0%, 93%);
+    --grayTextColor: rgb(190, 190, 190);
+    --inputColor: rgb(239, 239, 239);
+    --bodyColor: rgb(240, 240, 240);
+    --cardBGColor: rgb(255, 255, 255);
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    padding: 2rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+
+}
+
+.footer--img--div {
+    position: absolute;
+    height: 100%;  
+    width: 100%;
+
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        background: rgb(2 103 255 / 31%);;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        mix-blend-mode: multiply;
+    }
+}
+
+.footer--contents {
+    width: 100%;
+    height: max-content;
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    z-index: 100;
+    row-gap: 2rem;
+}
+
+.footer--contact--div {
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.footer--contact--text {
+    small {
+        font-size: 13px;
+        font-weight: 400;
+        color: var(--whiteColor);
+    }
+
+    h3 {
+        color: var(--whiteColor);
+        font-size: 1.8rem;
+        font-weight: 500;
+
+    }
+}
+
+.footer--input {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    flex-direction: column;
+
+    input {
+        width: 100%;
+        padding: .5rem .6rem;
+        border-radius: 3rem;
+        border: 1px solid var(--whiteColor);
+        outline: none;
+        color: var(--whiteColor);
+        background-color: transparent;
+        box-shadow: 1px 2px 8px rgb(0, 0, 0);
+
+        &::placeholder {
+            color: var(--whiteColor);
+            opacity: .6;
+        }
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+        color: var(--whiteColor);
+        font-weight: 500;
+        gap: .5rem;
+
+        .icon {
+            font-size: 18px;
+        }
+    }
+}
+
+.footer--card {
+    position: relative;
+    padding: 1rem 1rem 4rem;
+    gap: 2rem;
+    border-radius: 1rem;
+    background: var(--bodyColor);
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.footer--intro {
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: .5rem;
+
+    .footer--logo {
+        .logo {
+            color: var(--blackColor);
+            font-weight: 600;
+
+            .icon {
+                font-size: 25;
+                color: var(--primaryColor);
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+.footer--paragraph {
+    font-size: 13px;
+    color: var(--textColor);
+}
+
+.footer--socials {
+    column-gap: .5rem;
+    align-self: self-start;
+
+    .icon {
+        color: var(--blackColor);
+        font-size: 20px;
+
+        &:hover {
+            color: var(--primaryColor);
+        }
+    }
+}
+
+.footer--links {
+    flex-basis: 50%;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+
+    .link--group {
+        .group--title {
+            display: block;
+            font-weight: 600;
+            color: var(--blackColor);
+            margin: 1.5rem 0 .5rem 0;
+        }
+    }
+
+}
+.footer--list{
+font-size: 15px;
+color: var(--textColor);
+transition: .3s ease-in-out;
+cursor: pointer;
+
+.icon{
+    font-size: 15px;
+    color: var(--gradientColor);
+}
+&:hover{
+    color: var(--primaryColor);
+    transform: translateX(7px);
+
+    .icon{
+        color: var(--secondaryColor);
+
+
+    }
+}
+}
+
+.footer--div{
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background:var(--gradientColor);
+    padding: .5rem 2rem;
+
+    small{
+        font-size: 10px;
+        color: var(--whiteColor);
+    }
+}
+
+
+@media(min-width:960px){
+    .footer--contents{
+        .footer--input{
+            width: 50%;
+        }
+        .footer--card{
+            width: 90%;
+            
+        }
+    }
+
+}
